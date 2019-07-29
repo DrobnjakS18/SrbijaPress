@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "naslov": "Naslov 1",
+        "tekst": "Neki tekst",
+        "putanja":"1.jpg",
+        "alt":"slika1"
+    },
+    {
+        "id":2,
+        "naslov": "Naslov 2",
+        "tekst": "Neki tekst",
+        "putanja":"2.jpg",
+        "alt":"slika2"
+    },
+    {
+        "id":3,
+        "naslov": "Naslov 3",
+        "tekst": "Neki tekst",
+        "putanja":"3.jpg",
+        "alt":"slika3"
+    },
+    {
+        "id":4,
+        "naslov": "Naslov 4",
+        "tekst": "Neki tekst",
+        "putanja":"4.jpg",
+        "alt":"slika4"
+    },
+    {
+        "id":5,
+        "naslov": "Naslov 5",
+        "tekst": "Neki tekst",
+        "putanja":"5.jpg",
+        "alt":"slika5"
+    }
+]
