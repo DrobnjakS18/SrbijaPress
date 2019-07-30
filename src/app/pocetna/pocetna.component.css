@@ -1,0 +1,32 @@
+.row {
+
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 10px;  
+    padding: 20px;
+    box-shadow: 5px 5px;
+
+}
+
+.col-sm-4 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    width: 290px;
+}
+
+
+.col-sm-8 {
+
+    text-align: left;
+}
+
+.col-sm-8 h3 {
+
+    margin-top: 5px;
+}
+
+img {
+
+    margin-right: 15px;
+}
