@@ -10,7 +10,6 @@ export class PocetnaService {
   constructor(private service: HttpClient) { }
 
   dohvatiVesti() {
-
     var vesti = this.service.get("http://localhost:4200/assets/json/vesti.json");
     return vesti;
   }

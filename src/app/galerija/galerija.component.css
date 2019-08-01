@@ -1,0 +1,26 @@
+.col-md-6 {
+
+    padding: 0px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+h1 {
+    font-family: LeagueGothic;
+    margin-left: 42%;
+}
+
+.text {
+
+    position: absolute;
+    left:10px;
+    top:270px;
+    right: 10px;
+    color: white;
+
+}
+
+.text:hover {
+
+    text-decoration: underline;
+}

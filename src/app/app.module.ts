@@ -5,6 +5,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { RouteComponent } from './route/route.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 // import { PocetnaComponent } from './pocetna/pocetna.component';
 // import { GalerijaComponent } from './galerija/galerija.component';
 // import { KontaktComponent } from './kontakt/kontakt.component';
@@ -72,7 +74,8 @@ const routes : Routes = [
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

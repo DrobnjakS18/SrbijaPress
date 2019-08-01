@@ -1,0 +1,34 @@
+[
+
+    {
+        "src":"galerija1.jpg" ,
+        "alt":"galerija1",
+        "naslov":"\"Ovaj princip i sad stoji, apsolutno izopačen, van ikakve logike a kamoli međunarodnog prava\""
+    },
+    {
+        "src":"galerija2.jpg" ,
+        "alt":"galerija2",
+        "naslov":"Košarkaš Partizana uhapšen zbog droge – preti mu 10 godina zatvora"
+    },
+    {
+        "src":"galerija3.jpg" ,
+        "alt":"galerija3",
+        "naslov":"Brže do mora: Auto-put kroz srce Srbije se otvara 18. avgusta"
+    },
+    {
+        "src":"galerija4.jpg" ,
+        "alt":"galerija4",
+        "naslov":"Na ovom aerodromu zabava ne prestaje: Džinovskim toboganom do terminala"
+    },
+    {
+        "src":"galerija5.jpg" ,
+        "alt":"galerija5",
+        "naslov":"Manje 6.000 dinara: Smanjene plate za vreme korišćenja godišnjih odmora"
+    },
+    {
+        "src":"galerija6.jpg" ,
+        "alt":"galerija6",
+        "naslov":"Netfliks vredi više od pet balkanskih zemalja"
+    }
+
+]
