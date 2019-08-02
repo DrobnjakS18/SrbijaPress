@@ -2,6 +2,7 @@ import { KontaktComponent } from './kontakt.component';
 import { KontaktRoutingModule } from './kontakt-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule }   from '@angular/forms';
 
 
 @NgModule({
@@ -10,7 +11,8 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule,
-    KontaktRoutingModule
+    KontaktRoutingModule,
+    FormsModule
   ]
 })
 export class KontaktModule { }

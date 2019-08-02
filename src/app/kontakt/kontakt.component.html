@@ -35,39 +35,43 @@
                 <div class="contact-info">
                     <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
                     <h2>Kontakt</h2>
-                    <h4>Voleli bi vas feedback.</h4>
+                    <h4>Voleli bi da cujemo od vas.</h4>
                 </div>
             </div>
             <div class="col-md-9">
                 <div class="contact-form">
-                  <form>
+                  <form id="kontakt" (ngSubmit)="onSubmit(f)" #f="ngForm">
                     <div class="form-group">
-                      <label class="control-label col-sm-2" for="fname">Ime:</label>
+                      <label class="control-label col-sm-2" for="fname" >Ime:</label>
                       <div class="col-sm-10">          
-                        <input type="text" class="form-control" id="fname"  name="fname">
+                        <input type="text" class="form-control" ngModel id="fname"  required name="fname"  #ime="ngModel">
+                        <span class="help-block" *ngIf="!ime.valid && ime.touched">  Ime je obavezno.</span>
                       </div>
                     </div>
                     <div class="form-group">
                       <label class="control-label col-sm-2" for="lname">Prezime:</label>
                       <div class="col-sm-10">          
-                        <input type="text" class="form-control" id="lname"  name="lname">
+                        <input type="text" class="form-control" ngModel id="lname" required  name="lname" #prezime="ngModel" >
+                        <span class="help-block" *ngIf="!prezime.valid && prezime.touched">Prezime je obavezno.</span>
                       </div>
                     </div>
                     <div class="form-group">
                       <label class="control-label col-sm-2" for="email">Email:</label>
                       <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email"  name="email">
+                        <input type="email" class="form-control" id="email" ngModel  name="email" required email #email="ngModel">
+                        <span class="help-block" *ngIf="!email.valid && email.touched">  Email je obavezan.</span>
                       </div>
                     </div>
                     <div class="form-group">
                       <label class="control-label col-sm-2" for="comment">Poruka:</label>
                       <div class="col-sm-10">
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                        <textarea class="form-control" rows="5" id="comment"  ngModel name="comment" required #poruka="ngModel"></textarea>
+                        <span class="help-block" *ngIf="!poruka.valid && poruka.touched">Poruka je obavezna.</span>
                       </div>
                     </div>
                     <div class="form-group">        
                       <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Posalji</button>
+                        <button type="submit" class="btn btn-default" [disabled]="!f.valid">Posalji</button>
                         <span *ngIf="uspesno" class="text-success">Uspesno poslata poruka.</span>
                       </div>
                     </div>
