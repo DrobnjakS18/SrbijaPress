@@ -1,31 +1,16 @@
 
-
-<!-- <article id="featured" *ngFor="let vest of vesti">
-    <a href="#"><img src="assets/images/{{vest.putanja}}" alt="{{vest.alt}}"/></a>
-    <h1>{{vest.naslov}}</h1>
-    <p>{{vest.tekst}}</p>
-  </article> -->
   <div class="naslov">
     
   <h1>Najnovije   vesti</h1>
   </div>
 
   <div class="row" *ngFor="let vest of vesti">
-      <!-- <div class="col-sm-4">
-        
-          <img src="assets/images/{{vest.putanja}}" alt="{{vest.alt}}"/>
-      </div>
-      <div class="col-sm-8">
-          <h3>{{vest.naslov}}</h3>
-          <p>Datum objave: 30.07.2019</p>
-          <hr/>
-        <p>{{vest.tekst}}</p>
-      </div> -->
+  
         
         <img class="pull-left " src="assets/images/{{vest.putanja}}" alt="{{vest.alt}}" width="280px" height="167px"/>
       
 
-        <h3>{{vest.naslov}}</h3>
+        <h3>{{vest.naslov | titlecase}}</h3>
         <p>Datum objave:  {{vest.datum}} </p>
       <p>{{vest.tekst}}</p>
 
