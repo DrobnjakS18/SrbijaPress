@@ -36,3 +36,8 @@
 .contact-form button:focus{
     box-shadow:none;
 }
+
+svg {
+
+    margin-right: 12px;
+}

@@ -1,6 +1,6 @@
 import { GalerijaService } from './galerija.service';
 import { Component, OnInit } from '@angular/core';
-import { trigger, animate, style, state, transition,query,stagger } from '@angular/animations';
+import { trigger, animate, style, transition,query,stagger } from '@angular/animations';
 
 @Component({
   selector: 'app-galerija',
